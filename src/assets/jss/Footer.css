@@ -1,0 +1,19 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 110px;
+	margin-top: 20px;
+	background-color: rgb(92, 60, 209);
+	color: white;
+}
+.footer-list {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	list-style-type: none;
+}
+
+/* .footer-list li */

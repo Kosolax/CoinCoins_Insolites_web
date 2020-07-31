@@ -1,0 +1,23 @@
+.dl-link {
+    padding: 20px 30px;
+    margin: 50px 0;
+    background: rgb(92, 60, 209);
+    border-radius: 50px;
+}
+
+.dl-link:hover {
+    cursor: pointer;
+    background:  #f47643;    
+    border-radius: 50px;  
+}
+
+.dl-text {
+    color: white;
+    font-weight: 600;
+}
+
+
+/* .dl-text:hover {
+    color: white;
+} */
+

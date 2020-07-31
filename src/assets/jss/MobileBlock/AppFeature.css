@@ -1,0 +1,41 @@
+.app-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding: 40px 30px;
+    background-color: rgb(235, 235, 235);
+    transition: 0.25s;
+    /* border-radius: 4px;
+    box-shadow: 2px 2px 2px 5px gray; */
+    color: indigo;
+}
+
+.app-feature:hover {
+    cursor: pointer;
+    background-color: #f47643;
+    color: white;
+}
+
+.is-selected {
+    /* background-color: rgb(92, 60, 209); */
+    background: linear-gradient(#f47643, rgb(92, 60, 209));
+    color: white;
+}
+
+.title-feature {
+    font-family: 'Gotu', 'Sans-serif';
+    /* font-size: 20px; */
+}
+
+.Content-feature {
+    font-family: 'Sans-serif';
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
